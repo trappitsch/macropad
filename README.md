@@ -4,7 +4,7 @@ My customized configurations
 for the [Adafruit Macropad](https://www.adafruit.com/product/5128).
 
 All original files in this repo are licensed
-under [MIT](LICENSE.md).
+under [MIT](LICENSE).
 Read the project description to all subfolders below
 to see where other resources came from.
 
