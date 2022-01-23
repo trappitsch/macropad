@@ -23,7 +23,7 @@ app = {  # REQUIRED dict, must be named 'app'
         # (0x202000, "Struct", [Keycode.ALT, "7"]),
         # (0x202000, "Struct", [Keycode.bALT, "7"]),
         (0x280046, "StpMy", [Keycode.ALT, Keycode.SHIFT, Keycode.F7]),
-        (0x280046, "RunCur", [Keycode.ALT, Keycode.SHIFT, Keycode.F9]),
+        (0x280046, "RunCur", [Keycode.ALT, Keycode.SHIFT, "9"]),
         (0x004000, "Res", [Keycode.F9]),
         # Encoder button ---
         (0x000000, "", [Keycode.CONTROL, "w"]),  # Close window/tab
