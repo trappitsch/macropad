@@ -8,25 +8,25 @@ app = {  # REQUIRED dict, must be named 'app'
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
         (0x004000, "< Back", [Keycode.CONTROL, "["]),
-        (0x004000, "Fwd >", [Keycode.CONTROL, "]"]),
         (0x400000, "Up", [Keycode.SHIFT, " "]),  # Scroll up
+        (0x004000, "Fwd >", [Keycode.CONTROL, "]"]),
         # 2nd row ----------
         (0x462000, "< Tab", [Keycode.CONTROL, Keycode.SHIFT, Keycode.TAB]),
-        (0x462000, "Tab >", [Keycode.CONTROL, Keycode.TAB]),
         (0x400000, "Down", " "),  # Scroll down
+        (0x462000, "Tab >", [Keycode.CONTROL, Keycode.TAB]),
         # 3rd row ----------
         (0x000040, "BookMrk", [Keycode.CONTROL, "b"]),
         (0x000040, "Priv", [Keycode.CONTROL, Keycode.SHIFT, "p"]),
-        (0x000040, "KeePXC", [Keycode.ALT, Keycode.SHIFT, "u"]),
+        (0x000040, "Pwd", [Keycode.CONTROL, Keycode.SHIFT, "l"]),
         # 4th row ----------
         (
             0x101010,
-            "Brand",
+            "Proton",
             [
                 Keycode.CONTROL,
                 "t",
                 -Keycode.CONTROL,
-                "https://shibboleth.brandeis.edu/idp/\n",
+                "https://mail.proton.me\n",
             ],
         ),
         (
