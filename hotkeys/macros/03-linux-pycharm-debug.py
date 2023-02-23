@@ -16,7 +16,7 @@ app = {  # REQUIRED dict, must be named 'app'
         (0x004000, "Res", [Keycode.F9]),
         # 3rd row ----------
         (0x280046, "StpIn", [Keycode.F7]),
-        (0x280046, "StpMy", [Keycode.ALT, Keycode.SHIFT, Keycode.F7]),
+        (0x280046, "StpSmt", [Keycode.SHIFT, Keycode.F7]),
         (0x280046, "RunCur", [Keycode.ALT, Keycode.SHIFT, "9"]),
         # 4th row ----------
         (0x462000, "StpOv", [Keycode.F8]),
