@@ -9,7 +9,7 @@ app = {  # REQUIRED dict, must be named 'app'
         # 1st row ----------
         (0x400000, "Debug", [Keycode.F5]),
         (0x004000, "Run", [Keycode.CONTROL, Keycode.F5]),
-        (0x004000, "RunThis", [Keycode.SHIFT, Keycode.ALT, Keycode.F5]),
+        (0x004000, "RunThis", [Keycode.SHIFT, Keycode.ALT, "5"]),
         # 2nd row ----------
         (0x000040, "< Tab", [Keycode.CONTROL, Keycode.PAGE_UP]),
         (0xff5900, "RnTsts", [Keycode.CONTROL, Keycode.ALT, "6"]),
