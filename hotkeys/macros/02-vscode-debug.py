@@ -12,8 +12,8 @@ app = {  # REQUIRED dict, must be named 'app'
         (0x004000, "RunThis", [Keycode.CONTROL, Keycode.F5]),
         # 2nd row ----------
         (0xff5900, "Stop", [Keycode.F9]),
-        (0xff5900, "Restart", [Keycode.ALT, Keycode.SHIFT, "0"]),
-        (0x000040, "Console", [Keycode.CONTROL, Keycode.SHIFT, "Y"]),
+        (0xff5900, "Rstart", [Keycode.ALT, Keycode.SHIFT, "0"]),
+        (0x000040, "Cnsole", [Keycode.CONTROL, Keycode.SHIFT, "Y"]),
         # 3rd row ----------
         (0x280046, "StpOv", [Keycode.F10]),
         (0x280046, "StpIn", [Keycode.F11]),
